@@ -1,0 +1,36 @@
+{
+  "name": "ex3mm/laravel-rabbitmq",
+  "description": "Library for simplifying interaction with RabbitMQ in Laravel",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Ex3mm",
+      "email": "maxim.tursin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "php-amqplib/php-amqplib": "^3.5",
+    "laravel/framework": "^v9.0.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ex3mm\\LaravelRabbitmq\\LaravelRabbitmqServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Ex3mm\\LaravelRabbitmq\\": "src/"
+    }
+  }
+}
+
+
+
+
+
